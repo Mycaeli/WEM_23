@@ -1,2 +1,11 @@
 # WEM_23
-final commit
+
+Project Idea
+
+Vission
+
+We are looking to do an interactive system that provide to our posible ussers an space where they can play with their sorrunding to experience the tradional rhytms and music of our country
+
+Interest
+
+We want to develop a loopstation
