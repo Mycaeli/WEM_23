@@ -2,9 +2,9 @@
 
 ### Members 
 
-William Alejandro Pabon Guerrero---- 225366
-Miguel Calad Posada----------------- 350013               
-Emmanuel Echeverri Sepulveda-------- 448007 
+* William Alejandro Pabon Guerrero---- 225366
+* Miguel Calad Posada----------------- 350013               
+* Emmanuel Echeverri Sepulveda-------- 448007 
 
 
 ### Project Idea
