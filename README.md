@@ -28,3 +28,11 @@ We made an arduino system with a buzzer to use it like a piano, the mini piano w
 >Code.INO in the archives of the Git
 
 -https://www.youtube.com/watch?v=hgfqUaslW6o-
+
+### Proto 1.1: 
+We implement de Leap motion as a sensor to use in the experience of the music creation, the Leap Motion have some problems maping the hands in some position that we need but in general, its the perfect tool for the job, the next step its to build the intafece in Unity to make it workfit at all, in this case to make the digital piano midi and the compass
+
+
+![image](https://user-images.githubusercontent.com/84156615/219401970-f5958865-ae6d-4759-8a82-c29f8cc524c7.png)
+
+![image](https://user-images.githubusercontent.com/84156615/219402063-0894ddfa-4240-420b-bc90-796a776a990c.png)
