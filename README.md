@@ -36,3 +36,5 @@ We implement de Leap motion as a sensor to use in the experience of the music cr
 ![image](https://user-images.githubusercontent.com/84156615/219401970-f5958865-ae6d-4759-8a82-c29f8cc524c7.png)
 
 ![image](https://user-images.githubusercontent.com/84156615/219402063-0894ddfa-4240-420b-bc90-796a776a990c.png)
+
+![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Piano_test1.png)
