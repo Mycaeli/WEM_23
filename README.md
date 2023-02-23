@@ -38,3 +38,10 @@ We implement de Leap motion as a sensor to use in the experience of the music cr
 ![image](https://user-images.githubusercontent.com/84156615/219402063-0894ddfa-4240-420b-bc90-796a776a990c.png)
 
 ![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Piano_test1.png)
+
+### Proto 1.2: 
+The integration of the piano and the Leap motion was a hard step in the progress, the piano system have some errors because the leap motion have some trobbles trancking the hands and the piano just can play a Note one by one, if two notes are pushed at the same time the piano doesnt play anything.
+
+![image](https://user-images.githubusercontent.com/84156615/220967471-6f5b3151-217d-4cb7-bcb7-1c7ff0ad0983.png)
+
+
