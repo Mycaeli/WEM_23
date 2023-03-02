@@ -14,12 +14,12 @@
 
 ### Vision
 
-We are looking to do an interactive system that provide to our posible users an space where they can play with their sorrunding to experience the tradional rhytms and music of our country.
+We are looking forward to do an interactive system that provide to our posible users an space where they can play with their sorrunding to experience rhytms and music.
 
 
 ### Interest
 
-We want to develop a loopstation that would allow people to create beats on a 4 times compass
+
 
 
 ### Proto 1.0: 
