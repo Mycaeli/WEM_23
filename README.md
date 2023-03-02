@@ -14,7 +14,7 @@
 
 ### Vision
 
-We are looking to do an interactive system that provide to our posible ussers an space where they can play with their sorrunding to experience the tradional rhytms and music of our country
+We are looking to do an interactive system that provide to our posible users an space where they can play with their sorrunding to experience the tradional rhytms and music of our country.
 
 
 ### Interest
@@ -44,4 +44,4 @@ The integration of the piano and the Leap motion was a hard step in the progress
 
 ![image](https://user-images.githubusercontent.com/84156615/220967471-6f5b3151-217d-4cb7-bcb7-1c7ff0ad0983.png)
 
-
+![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Drums_test1.png)
