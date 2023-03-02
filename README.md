@@ -44,7 +44,7 @@ The integration of the piano and the Leap motion was a hard step in the progress
 
 ![image](https://user-images.githubusercontent.com/84156615/220967471-6f5b3151-217d-4cb7-bcb7-1c7ff0ad0983.png)
 
-### Proto 1.2: 
+### Proto 1.3: 
 The drums are in process of modeing and the ESP ist in the final stages to be funtional, the Leap motion have some trobles to make sound touching the keys with the thingers so it we need it to work the player need to put the hand upside down.
 
 ![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Drums_test1.png)
