@@ -42,7 +42,7 @@ The integration of the piano and the Leap motion was a hard step in the progress
 
 ![image](https://user-images.githubusercontent.com/84156615/220967471-6f5b3151-217d-4cb7-bcb7-1c7ff0ad0983.png)
 
-### Proto 3.0:
+### Proto 2.2:
 The drums are in process of modeling, the base model its working with the sound effects, the ESP its in the final stages to be funtional and the Leap motion has some troubles with the fingers control and how the keys are pressed, the only way that the user can make 2 sounds at the same time its playing the piano upside ways because the hitbox of the hands are confusing the piano keys. The songs we´ll use are: Harry Potter Theme, Can U feel my heart, Lacrimosa, Rush E and Tetris Theme.
 
 ![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Drums_test1.png)
