@@ -48,3 +48,6 @@ The integration of the piano and the Leap motion was a hard step in the progress
 The drums are in process of modeing and the ESP ist in the final stages to be funtional, the Leap motion have some trobles to make sound touching the keys with the thingers so it we need it to work the player need to put the hand upside down.
 
 ![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Drums_test1.png)
+
+the reference to do the piano system its like this:
+![image](https://user-images.githubusercontent.com/84156615/222506743-f4e86872-7ddd-40b1-96f2-1bb83fa07c9c.png)
