@@ -23,7 +23,8 @@ We are looking forward to do an interactive system that provide to our posible u
 
 
 ### Proto 1.0: 
-We made an arduino system with a buzzer to use it like a piano, the mini piano works but the idea changed to use a Leap Motion, the code still works
+We made an arduino system with a buzzer to use it like a piano, the mini piano works but the idea changed to use a Leap Motion, the code still works.
+
 ![Diagrama-Piano-Electrico-1024x463](https://user-images.githubusercontent.com/84156615/217916693-bf6f049f-c5fc-4a95-85df-6d70629816f7.png)
 >Code.INO in the archives of the Git
 
