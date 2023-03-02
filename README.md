@@ -30,7 +30,7 @@ We made an arduino system with a buzzer to use it like a piano, the mini piano w
 
 -https://www.youtube.com/watch?v=hgfqUaslW6o-
 
-### Proto 2.2 (avance):
+### Avance 2.2:
 We implement de Leap motion as a sensor to use in the experience of the music creation, the Leap Motion have some problems maping the hands in some position that we need but in general, its the perfect tool for the job, the next step its to build the interface in Unity to make it workfit at all, in this case to make a functional digital piano midi and the compass.
 
 ![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Leap%20Motion_test.png)
@@ -42,7 +42,7 @@ The integration of the piano and the Leap motion was a hard step in the progress
 
 ![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Leap%20Motion_test%20on%20piano.png)
 
-### Proto 3.1 (avance):
+### Avance 3.1:
 The drums are in process of modeling, the base model its working with the sound effects, the ESP its in the final stages to be funtional and the Leap motion has some troubles with the fingers control and how the keys are pressed, the only way that the user can make 2 sounds at the same time its playing the piano upside ways because the hitbox of the hands are confusing the piano keys. The songs we´ll use are: Harry Potter Theme, Can U feel my heart, Lacrimosa, Rush E and Tetris Theme.
 
 ![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Drums_test1.png)
