@@ -73,20 +73,6 @@ The making the system for the rhythm game its hard, for the interaction of the b
 
 So we made a new code for apart of the Leap to detect when de button its press and when its pressed destroy the coming note, every element with the tag Note will destroy when the key get pressed:
 
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.Events;
-
-public class Manager : MonoBehaviour
-{
-    public GameObject button;
-    public UnityEvent onPress;
-    public UnityEvent onRelease;
-    GameObject presser;
-    bool isPressed;
-    public KeyCode key;
-    GameObject note;
 
     void Start()
     {
@@ -120,5 +106,5 @@ public class Manager : MonoBehaviour
         }
     }
 
-}
+
 
