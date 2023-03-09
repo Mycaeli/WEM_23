@@ -49,3 +49,8 @@ The drums are in process of modeling, the base model its working with the sound 
 
 This is the reference for the piano system:
 ![image](https://user-images.githubusercontent.com/84156615/222506743-f4e86872-7ddd-40b1-96f2-1bb83fa07c9c.png)
+
+### Avance 3.2:
+Conga model Blender preview:
+![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Conga%20Model.png)
+
