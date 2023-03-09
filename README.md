@@ -66,6 +66,9 @@ Conga texture example:
 
 ![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Conga_Texture_Image.png)
 
+Congas Unity integration:
+
+![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Congas_Unity.png)
 
 The making the system for the rhythm game its hard, for the interaction of the buttons of the leap its needed to edit the code of the package of Ultra Leap but that codes cannot be edited so one alternative its to create a new code with the same value that detects when the button its pressed or not. However, it didnt mean that we didnt do anything, the musical peaces now can fall and mark each piano key to play
 
