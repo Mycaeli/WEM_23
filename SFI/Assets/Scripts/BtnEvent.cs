@@ -6,6 +6,7 @@ public class BtnEvent : MonoBehaviour
 {
     public Text textzone1, textzone2, textzone3, textzone4;
     public AudioSource source1, source2, source3, source4;
+    public float wait = 0.5f;
     
     void Start(){
         UduinoManager.Instance.pinMode(14, PinMode.Input_pullup);
@@ -20,11 +21,19 @@ public class BtnEvent : MonoBehaviour
         int bt3 = UduinoManager.Instance.digitalRead(26);
         int bt4 = UduinoManager.Instance.digitalRead(25);
 
-        if (bt1 == 0){
+        if (bt1 == 0 && wait > 0){
             textzone1.text = "Down";
             AudioTrigger(source1);
-        }else
+            wait -= Time.deltaTime;
+        }
+        else{
             textzone1.text = "Up";
+            if (bt1 == 1)
+            {
+                wait = 0.5f;
+            }
+        }
+
         
         if (bt2 == 0){
             textzone2.text = "Down";
@@ -48,6 +57,14 @@ public class BtnEvent : MonoBehaviour
     {
         while (aud.isPlaying == false){
             aud.Play();
+        }
+    }
+
+    void ButtonTimer(float t)
+    {
+        if (t > 0)
+        {
+            t -= Time.deltaTime;
         }
     }
 }
