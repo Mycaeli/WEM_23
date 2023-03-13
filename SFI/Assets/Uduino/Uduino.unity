@@ -789,10 +789,16 @@ MonoBehaviour:
   textzone2: {fileID: 1759968138}
   textzone3: {fileID: 1463393339}
   textzone4: {fileID: 1938036360}
-  source1: {fileID: 1370116843}
-  source2: {fileID: 51488993}
-  source3: {fileID: 1853648021}
-  source4: {fileID: 2009641486}
+  sources:
+  - {fileID: 1370116843}
+  - {fileID: 51488993}
+  - {fileID: 1853648021}
+  - {fileID: 2009641486}
+  crono:
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
 --- !u!1 &1463393337
 GameObject:
   m_ObjectHideFlags: 0
