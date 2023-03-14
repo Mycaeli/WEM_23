@@ -4,9 +4,11 @@ using Uduino;
 
 public class BtnEvent : MonoBehaviour
 {
-    public Text textzone1, textzone2, textzone3, textzone4;
+    public GameObject kongas;
+    public Text[] txt_zone = new Text[4];
     public AudioSource[] sources = new AudioSource[4];
     public float[] crono = new[] {0.5f,0.5f,0.5f,0.5f };
+    public float[] adjust = new[] {0.2f,0.3f,0.3f,0.2f };
     
     void Start(){
         UduinoManager.Instance.pinMode(14, PinMode.Input_pullup);
@@ -22,23 +24,23 @@ public class BtnEvent : MonoBehaviour
         int bt3 = UduinoManager.Instance.digitalRead(26);
         int bt4 = UduinoManager.Instance.digitalRead(25);
         
-        ButtonEvnt(bt1,textzone1,1);
-        ButtonEvnt(bt2,textzone2,2);
-        ButtonEvnt(bt3,textzone3,3);
-        ButtonEvnt(bt4,textzone4,4);
+        ButtonEvnt(bt1,1);
+        ButtonEvnt(bt2,2);
+        ButtonEvnt(bt3,3);
+        ButtonEvnt(bt4,4);
     }
 
-    void ButtonEvnt(int btn, Text text, int i)
+    void ButtonEvnt(int btn, int i)
     {
         if (btn == 0 && crono[i-1] > 0){
-            text.text = "Down";
+            txt_zone[i-1].text = "Down";
             AudioTrigger(sources[i-1]);
             crono[i-1] -= Time.deltaTime;
         }
         else{
-            text.text = "Up";
+            txt_zone[i-1].text = "Up";
             if (btn == 1){
-                crono[i-1] = 0.5f;
+                crono[i-1] = adjust[i-1];
             }
         }
     }
@@ -46,5 +48,10 @@ public class BtnEvent : MonoBehaviour
         while (aud.isPlaying == false){
             aud.Play();
         }
+    }
+
+    void Konga()
+    {
+        
     }
 }
