@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Uduino/Uduino.unity
+- path: Assets/Plugins/Uduino/Uduino.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
