@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/Scenes/3. Rigged Hands (Desktop) (Standard).unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
