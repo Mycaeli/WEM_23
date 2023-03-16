@@ -153,7 +153,7 @@ namespace Leap.Unity.Interaction
             get
             {
                 return initialLocalPosition
-                       + Vector3.back * Mathf.Lerp(minMaxHeight.x, minMaxHeight.y, restingHeight);
+                       + Vector3.back * Mathf.Lerp(minMaxHeight.y, minMaxHeight.x, restingHeight);
             }
         }
 
@@ -212,10 +212,10 @@ namespace Leap.Unity.Interaction
             if (startingPositionMode == StartingPositionMode.Relaxed)
             {
                 initialLocalPosition = transform.localPosition
-                  + Vector3.forward * Mathf.Lerp(minMaxHeight.x, minMaxHeight.y, restingHeight);
+                  + Vector3.forward * Mathf.Lerp(minMaxHeight.y, minMaxHeight.x, restingHeight);
             }
             transform.localPosition = initialLocalPosition
-              + Vector3.back * Mathf.Lerp(minMaxHeight.x, minMaxHeight.y, restingHeight);
+              + Vector3.back * Mathf.Lerp(minMaxHeight.y, minMaxHeight.x, restingHeight);
 
             localPhysicsPosition = transform.localPosition;
             localPhysicsPositionConstrained = localPhysicsPosition;
@@ -244,7 +244,7 @@ namespace Leap.Unity.Interaction
                 {
 
                     float localPhysicsDisplacementPercentage
-                      = Mathf.InverseLerp(minMaxHeight.x, minMaxHeight.y,
+                      = Mathf.InverseLerp(minMaxHeight.y, minMaxHeight.x,
                                           initialLocalPosition.z - localPhysicsPosition.z);
 
                     // Sleep the rigidbody if it's not really moving.
@@ -334,10 +334,10 @@ namespace Leap.Unity.Interaction
                     localPhysicsVelocity +=
                       Mathf.Clamp(_springForce * 10000F
                                   * (initialLocalPosition.z
-                                     - Mathf.Lerp(minMaxHeight.x, minMaxHeight.y, restingHeight)
+                                     - Mathf.Lerp(minMaxHeight.y, minMaxHeight.x, restingHeight)
                                      - localPhysicsPosition.z),
-                                 -100f / transform.parent.lossyScale.x,
-                                  100f / transform.parent.lossyScale.x)
+                                 -100f / transform.parent.lossyScale.y,
+                                  100f / transform.parent.lossyScale.y)
                       * Time.fixedDeltaTime * Vector3.forward;
 
                     // Friction & Drag
@@ -348,13 +348,13 @@ namespace Leap.Unity.Interaction
                         // Friction force
                         var frictionForceAmt = velMag * FRICTION_COEFFICIENT;
                         frictionDragVelocityChangeAmt
-                          += Time.fixedDeltaTime * transform.parent.lossyScale.x * frictionForceAmt;
+                          += Time.fixedDeltaTime * transform.parent.lossyScale.y * frictionForceAmt;
 
                         // Drag force
                         float velSqrMag = velMag * velMag;
                         var dragForceAmt = velSqrMag * DRAG_COEFFICIENT;
                         frictionDragVelocityChangeAmt
-                          += Time.fixedDeltaTime * transform.parent.lossyScale.x * dragForceAmt;
+                          += Time.fixedDeltaTime * transform.parent.lossyScale.y * dragForceAmt;
 
                         // Apply velocity change, but don't let friction or drag let velocity
                         // magnitude cross zero.
@@ -373,30 +373,30 @@ namespace Leap.Unity.Interaction
                 bool oldDepressed = isPressed;
 
                 // Normalized depression amount.
-                _pressedAmount = localPhysicsPosition.z.Map(initialLocalPosition.z - minMaxHeight.x,
-                  initialLocalPosition.z - Mathf.Lerp(minMaxHeight.x, minMaxHeight.y, restingHeight),
+                _pressedAmount = localPhysicsPosition.z.Map(initialLocalPosition.z - minMaxHeight.y,
+                  initialLocalPosition.z - Mathf.Lerp(minMaxHeight.y, minMaxHeight.x, restingHeight),
                   1F, 0F);
 
                 // If the button is depressed past its limit...
-                if (localPhysicsPosition.z > initialLocalPosition.z - minMaxHeight.x)
+                if (localPhysicsPosition.z > initialLocalPosition.z - minMaxHeight.y)
                 {
-                    transform.localPosition = new Vector3(localPhysicsPosition.x, localPhysicsPosition.y, initialLocalPosition.z - minMaxHeight.x);
+                    transform.localPosition = new Vector3(localPhysicsPosition.y, localPhysicsPosition.x, initialLocalPosition.z - minMaxHeight.y);
                     if ((isPrimaryHovered && _lastDepressor != null) || isGrasped)
                     {
                         _isPressed = true;
                     }
                     else
                     {
-                        physicsPosition = transform.parent.TransformPoint(new Vector3(localPhysicsPosition.x, localPhysicsPosition.y, initialLocalPosition.z - minMaxHeight.x));
+                        physicsPosition = transform.parent.TransformPoint(new Vector3(localPhysicsPosition.y, localPhysicsPosition.x, initialLocalPosition.z - minMaxHeight.x));
                         _physicsVelocity = _physicsVelocity * 0.1f;
                         _isPressed = false;
                         _lastDepressor = null;
                     }
                     // Else if the button is extended past its limit...
                 }
-                else if (localPhysicsPosition.z < initialLocalPosition.z - minMaxHeight.y)
+                else if (localPhysicsPosition.z < initialLocalPosition.z - minMaxHeight.x)
                 {
-                    transform.localPosition = new Vector3(localPhysicsPosition.x, localPhysicsPosition.y, initialLocalPosition.z - minMaxHeight.y);
+                    transform.localPosition = new Vector3(localPhysicsPosition.y, localPhysicsPosition.x, initialLocalPosition.z - minMaxHeight.x);
                     physicsPosition = transform.position;
                     _isPressed = false;
                     _lastDepressor = null;
@@ -408,7 +408,7 @@ namespace Leap.Unity.Interaction
 
                     // Allow some hysteresis before setting isDepressed to false.
                     if (!isPressed
-                        || !(localPhysicsPosition.z > initialLocalPosition.z - (minMaxHeight.y - minMaxHeight.x) * 0.1F))
+                        || !(localPhysicsPosition.z > initialLocalPosition.z - (minMaxHeight.x - minMaxHeight.y) * 0.1F))
                     {
                         _isPressed = false;
                         _lastDepressor = null;
@@ -451,8 +451,8 @@ namespace Leap.Unity.Interaction
         {
             // Buttons are only allowed to move along their Z axis.
             return new Vector3(
-              initialLocalPosition.x,
               initialLocalPosition.y,
+              initialLocalPosition.x,
               localPhysicsPosition.z + localPosition.z);
         }
 
@@ -487,7 +487,7 @@ namespace Leap.Unity.Interaction
         // Try grabbing the offset between the fingertip and this object...
         private void trySetDepressor(Collider collider)
         {
-            if (collider.attachedRigidbody != null && _lastDepressor == null && (localPhysicsPosition.z > initialLocalPosition.z - minMaxHeight.x)
+            if (collider.attachedRigidbody != null && _lastDepressor == null && (localPhysicsPosition.z > initialLocalPosition.z - minMaxHeight.y)
               && (manager.contactBoneBodies.ContainsKey(collider.attachedRigidbody)
                   && !this.ShouldIgnoreHover(manager.contactBoneBodies[collider.attachedRigidbody].interactionController)))
             {
