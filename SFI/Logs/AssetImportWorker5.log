@@ -497,3 +497,61 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 683684.395464 seconds.
+  path: Assets/Assets/Prefabs/Piano_Notes.prefab
+  artifactKey: Guid(f44e7af68bd3a1543b1c4df78b37f164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Piano_Notes.prefab using Guid(f44e7af68bd3a1543b1c4df78b37f164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ed1d2174a6da24486a55b704223e38') in 0.059380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 305.824927 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Examples/Hands Examples/Hands (URP)/Materials/URP_LowPolyHand.mat
+  artifactKey: Guid(7a88c3088d3a9f44fb8448700b7a30d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Examples/Hands Examples/Hands (URP)/Materials/URP_LowPolyHand.mat using Guid(7a88c3088d3a9f44fb8448700b7a30d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02e60178e83081ba7fae6c52dfb377c') in 0.106181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 97.597775 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Examples/Interaction Engine Examples/1. Interaction Objects/Prefabs/InteractionCapsule.prefab
+  artifactKey: Guid(88a926f39f5ae5c40976d0ff02c7fd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Examples/Interaction Engine Examples/1. Interaction Objects/Prefabs/InteractionCapsule.prefab using Guid(88a926f39f5ae5c40976d0ff02c7fd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd29b2b677e2752d03d010abe3d7107') in 0.054007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.332158 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Examples/Interaction Engine Examples/1. Interaction Objects/Prefabs/InteractionSphere.prefab
+  artifactKey: Guid(5a1fb53528997fe478560ab3120da9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Examples/Interaction Engine Examples/1. Interaction Objects/Prefabs/InteractionSphere.prefab using Guid(5a1fb53528997fe478560ab3120da9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e657945dd05043b9302b6691a50c0b8e') in 0.015499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.435081 seconds.
+  path: Assets/Plugins/Ultraleap Tracking 6.0 Legacy/Core/Editor/Resources/StereoIR170InteractionVolume.mat
+  artifactKey: Guid(095eb2a35819f824e989239e78fa4de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Ultraleap Tracking 6.0 Legacy/Core/Editor/Resources/StereoIR170InteractionVolume.mat using Guid(095eb2a35819f824e989239e78fa4de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26566fe2f6edd9634ef9d9e53ada83e3') in 0.019127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Examples/Example Assets/3D Models/Ultraleap_Cube_Interactable.fbx
+  artifactKey: Guid(ffbd7d9cd70540c43b3a3236199124f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Examples/Example Assets/3D Models/Ultraleap_Cube_Interactable.fbx using Guid(ffbd7d9cd70540c43b3a3236199124f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083005374400d870ebd2fd35fc77cbb3') in 0.063511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Examples/Example Assets/3D Models/Ultraleap_Cylinder_Interactable.fbx
+  artifactKey: Guid(2780756f69a209749a895e3417d8f380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Examples/Example Assets/3D Models/Ultraleap_Cylinder_Interactable.fbx using Guid(2780756f69a209749a895e3417d8f380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11df8a4c18d82682ebf3b549bee39228') in 0.040602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Examples/Example Assets/3D Models/Ultraleap_Capsule_Interactable.fbx
+  artifactKey: Guid(bb3ecee9a68f1924584233016f36dcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Examples/Example Assets/3D Models/Ultraleap_Capsule_Interactable.fbx using Guid(bb3ecee9a68f1924584233016f36dcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77b1cb880ecb275a5c8831a28f35314') in 0.043166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.049858 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Interaction Engine/Editor/Ultraleap.Tracking.InteractionEngine.Editor.asmdef
+  artifactKey: Guid(dac34893b3d24b3449bd169a36638f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Interaction Engine/Editor/Ultraleap.Tracking.InteractionEngine.Editor.asmdef using Guid(dac34893b3d24b3449bd169a36638f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba050d28486ffd08fd1ca705c5a5b14b') in 0.010967 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
