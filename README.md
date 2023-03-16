@@ -108,6 +108,14 @@ So we made a new code for apart of the Leap to detect when de button its press a
             isPressed = false;
         }
     }
+### Avance 3.3:
+Description.
+
+Integration of the Uduino plugin and it's Wifi extension to manage the communicatios of the Esp32 that would be the interface to play the kongas.
 
 
+
+### Proto 3.0
+
+The kongos and the piano had been implemented on the same unity project, both of them work and can sound at the same time, for the moment the kongos, had a visual feedback of color change, and the piano notes had a animation of moving when active.
 
