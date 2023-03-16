@@ -338,13 +338,13 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Ultraleap.Tracking.Core.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Plugins/Ultraleap/Tracking/Hands/Runtime/Scripts/DistortTrackingDataToVisuals.cs"
-"Assets/Plugins/Ultraleap/Tracking/Hands/Runtime/Scripts/HandBinder/HandBinder.cs"
-"Assets/Plugins/Ultraleap/Tracking/Hands/Runtime/Scripts/HandBinder/HandBinderAutoBinder.cs"
-"Assets/Plugins/Ultraleap/Tracking/Hands/Runtime/Scripts/HandBinder/HandBinderBoneDefinitions.cs"
-"Assets/Plugins/Ultraleap/Tracking/Hands/Runtime/Scripts/HandBinder/HandBinderData.cs"
-"Assets/Plugins/Ultraleap/Tracking/Hands/Runtime/Scripts/HandModelManager.cs"
-"Assets/Plugins/Ultraleap/Tracking/Hands/Runtime/Scripts/ShowArm.cs"
+"Assets/ThirdParty/Ultraleap/Tracking/Hands/Runtime/Scripts/DistortTrackingDataToVisuals.cs"
+"Assets/ThirdParty/Ultraleap/Tracking/Hands/Runtime/Scripts/HandBinder/HandBinder.cs"
+"Assets/ThirdParty/Ultraleap/Tracking/Hands/Runtime/Scripts/HandBinder/HandBinderAutoBinder.cs"
+"Assets/ThirdParty/Ultraleap/Tracking/Hands/Runtime/Scripts/HandBinder/HandBinderBoneDefinitions.cs"
+"Assets/ThirdParty/Ultraleap/Tracking/Hands/Runtime/Scripts/HandBinder/HandBinderData.cs"
+"Assets/ThirdParty/Ultraleap/Tracking/Hands/Runtime/Scripts/HandModelManager.cs"
+"Assets/ThirdParty/Ultraleap/Tracking/Hands/Runtime/Scripts/ShowArm.cs"
 -langversion:9.0
 
 /deterministic
