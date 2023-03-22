@@ -210,3 +210,8 @@ public class BtnEvent : MonoBehaviour
 
 The kongos and the piano had been implemented on the same unity project, both of them work and can sound at the same time, for the moment the kongos, had a visual feedback of color change, and the piano notes had a animation of moving when active.
 
+To solve the problem of the piano keys, the solution was to separate the piano black key from the white keys, sometimes the sensor had some troubles tranking so the hands shake a little in the corners of the leap
+
+![image](https://user-images.githubusercontent.com/84156615/227055286-4f044ead-c6db-4dd0-9145-6b1e91bd6361.png)
+
+
