@@ -367,8 +367,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 148090780}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.005, y: 0.732, z: 0}
-  m_LocalScale: {x: -0.025952354, y: 0.033262976, z: -0.033671733}
+  m_LocalPosition: {x: 0.005, y: 1.01439, z: 0}
+  m_LocalScale: {x: -0.025952354, y: 0.0636354, z: -0.033671733}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -408,7 +408,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 1444bde40dec4344897f6474f51c3a54, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -572,8 +572,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 289179396}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.021, y: 0.817, z: 0}
-  m_LocalScale: {x: -0.025952354, y: 0.033262976, z: -0.033671733}
+  m_LocalPosition: {x: -0.021, y: 1.177, z: 0}
+  m_LocalScale: {x: -0.025952354, y: 0.0636354, z: -0.033671733}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -607,8 +607,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 319706154}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.057424217, y: 0.732, z: 0}
-  m_LocalScale: {x: -0.025952354, y: 0.033262976, z: -0.033671733}
+  m_LocalPosition: {x: -0.057424217, y: 1.329, z: 0}
+  m_LocalScale: {x: -0.025952354, y: 0.0636354, z: -0.033671733}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2194,6 +2194,66 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4830093669698161681, guid: f44e7af68bd3a1543b1c4df78b37f164, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d4604db0cb1bf7649993f15e33dde752, type: 3}
+    - target: {fileID: 5081501584103447667, guid: f44e7af68bd3a1543b1c4df78b37f164, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 65f0cec659bda5b4db8702649d2b7661, type: 3}
+    - target: {fileID: 8949263072993487254, guid: f44e7af68bd3a1543b1c4df78b37f164, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d1865d56707d5eb4ba5a02cdf7a59c24, type: 3}
+    - target: {fileID: 8949263073011362065, guid: f44e7af68bd3a1543b1c4df78b37f164, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ec9ec2e6819f5541be38ffde93dd7e0, type: 3}
+    - target: {fileID: 8949263073091531493, guid: f44e7af68bd3a1543b1c4df78b37f164, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: aaa7eee9746b7d04db3fe166c2ffc50f, type: 3}
+    - target: {fileID: 8949263073380211473, guid: f44e7af68bd3a1543b1c4df78b37f164, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: eb0d1587f0fe18d47bcab4385d45d670, type: 3}
+    - target: {fileID: 8949263073427757252, guid: f44e7af68bd3a1543b1c4df78b37f164, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: c93bdde14693483478a48ec2c5170b55, type: 3}
+    - target: {fileID: 8949263073534590915, guid: f44e7af68bd3a1543b1c4df78b37f164, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e1d84ff2917dba488471fb49262c659, type: 3}
+    - target: {fileID: 8949263073755353084, guid: f44e7af68bd3a1543b1c4df78b37f164, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: bcd1125b40a9ebd498d6203c9c2a0002, type: 3}
+    - target: {fileID: 8949263073871077463, guid: f44e7af68bd3a1543b1c4df78b37f164, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 978c590d6236e4c4097bff5b1e29756c, type: 3}
+    - target: {fileID: 8949263073882765224, guid: f44e7af68bd3a1543b1c4df78b37f164, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: c5a668dc5230120408de018b5d734b08, type: 3}
+    - target: {fileID: 8949263074242242780, guid: f44e7af68bd3a1543b1c4df78b37f164, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f5ffb3804530ff43b55eaa96fa8980d, type: 3}
+    - target: {fileID: 8949263074328647010, guid: f44e7af68bd3a1543b1c4df78b37f164, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ad7689a4685427d418a6ac3cee6b42cb, type: 3}
+    - target: {fileID: 8949263074448535318, guid: f44e7af68bd3a1543b1c4df78b37f164, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d71156a75803bc04a9dc0241f331ec59, type: 3}
+    - target: {fileID: 8949263074600311827, guid: f44e7af68bd3a1543b1c4df78b37f164, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 915f075b9bc611b4c8737b2d297afe2e, type: 3}
     - target: {fileID: 8949263074668026013, guid: f44e7af68bd3a1543b1c4df78b37f164, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -2242,6 +2302,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piano_Notes
       objectReference: {fileID: 0}
+    - target: {fileID: 8949263074775516221, guid: f44e7af68bd3a1543b1c4df78b37f164, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0bcf601d2cbf366438cad512a8870cf8, type: 3}
+    - target: {fileID: 8949263074856706275, guid: f44e7af68bd3a1543b1c4df78b37f164, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 041ce3cb33d35b345ab8066bc16eff19, type: 3}
+    - target: {fileID: 8949263075073845384, guid: f44e7af68bd3a1543b1c4df78b37f164, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7dbbe58486745a6459b8717175eb9c4e, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f44e7af68bd3a1543b1c4df78b37f164, type: 3}
 --- !u!114 &1436333026 stripped
@@ -2552,8 +2624,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1769709949}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.083, y: 0.817, z: 0}
-  m_LocalScale: {x: -0.025952354, y: 0.033262976, z: -0.033671733}
+  m_LocalPosition: {x: 0.097, y: 1.493, z: 0}
+  m_LocalScale: {x: -0.025952354, y: 0.0636354, z: -0.033671733}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2598,8 +2670,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1784447334}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.096000016, y: 0.611, z: 0}
-  m_LocalScale: {x: -0.025952354, y: 0.033262976, z: -0.033671733}
+  m_LocalPosition: {x: -0.096000016, y: 0.78290004, z: 0}
+  m_LocalScale: {x: -0.025952354, y: 0.0636354, z: -0.033671733}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
