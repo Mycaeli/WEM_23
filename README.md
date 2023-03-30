@@ -224,6 +224,46 @@ This is an example of a laser beam:
 
 ![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Laser_test.png)
 
+This week the leap motion was not able to use, so the advances was kind of hard but we make a new code for the interaction with the buttons, the propouse its to try it and look if it works or need a modofication:
+
+using UnityEngine;
+
+public class Boton : MonoBehaviour
+{
+    public GameObject objetoAActivar;
+    public bool estaActivado = false;
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.GetComponent<Leap.Unity.LeapHand>() != null)
+        {
+            estaActivado = true;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.GetComponent<Leap.Unity.LeapHand>() != null)
+        {
+            estaActivado = false;
+        }
+    }
+
+    private void Update()
+    {
+        if (estaActivado && Input.GetKeyDown(KeyCode.Space))
+        {
+            ActivarObjeto();
+        }
+    }
+
+    private void ActivarObjeto()
+    {
+        objetoAActivar.SetActive(true);
+    }
+}
+
+
 
 
 
