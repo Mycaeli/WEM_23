@@ -231,6 +231,7 @@ using UnityEngine;
 public class Boton : MonoBehaviour
 {
     public GameObject objetoAActivar;
+    
     public bool estaActivado = false;
 
     private void OnTriggerEnter(Collider other)
