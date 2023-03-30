@@ -218,6 +218,8 @@ The scenary will be basic, a dark room where the object stand out. The complex p
 
 ![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Scenary_test.png)
 
+![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Scene_Blender_LightsOff.png)
+
 This is an example of a laser beam:
 
 ![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Laser_test.png)
