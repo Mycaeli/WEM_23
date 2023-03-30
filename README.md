@@ -226,13 +226,11 @@ This is an example of a laser beam:
 
 This week the leap motion was not able to use, so the advances was kind of hard but we make a new code for the interaction with the buttons, the propouse its to try it and look if it works or need a modofication:
 
-    using UnityEngine;
+using UnityEngine;
 
     public class Boton : MonoBehaviour
-
     {
     public GameObject objetoAActivar;
-    
     public bool estaActivado = false;
 
     private void OnTriggerEnter(Collider other)
@@ -261,9 +259,29 @@ This week the leap motion was not able to use, so the advances was kind of hard 
 
     private void ActivarObjeto()
     {
-        objetoAActivar.SetActive(true);
+        if (objetoAActivar != null)
+        {
+            objetoAActivar.SetActive(true);
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag != "Mano")
+        {
+            DestruirObjeto();
+        }
+    }
+
+    private void DestruirObjeto()
+    {
+        if (objetoAActivar != null)
+        {
+            Destroy(objetoAActivar);
+        }
     }
     }
+
 
 
 
