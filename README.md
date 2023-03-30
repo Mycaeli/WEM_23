@@ -214,6 +214,76 @@ To solve the problem of the piano keys, the solution was to separate the piano b
 
 ![image](https://user-images.githubusercontent.com/84156615/227058649-a52bd5fb-8e66-4374-93cb-3ec3d861fe11.png)
 
+The scenary will be basic, a dark room where the object stand out. The complex part will be the lighting where grid lights and laser beams will appear in the game scene as they´ll be animated.
+
+![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Scenary_test.png)
+
+![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Scene_Blender_LightsOff.png)
+
+This is an example of a laser beam:
+
+![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Laser_test.png)
+
+This week the leap motion was not able to use, so the advances was kind of hard but we make a new code for the interaction with the buttons, the propouse its to try it and look if it works or need a modofication:
+
+using UnityEngine;
+
+    public class Boton : MonoBehaviour
+    {
+    public GameObject objetoAActivar;
+    public bool estaActivado = false;
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.GetComponent<Leap.Unity.LeapHand>() != null)
+        {
+            estaActivado = true;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.GetComponent<Leap.Unity.LeapHand>() != null)
+        {
+            estaActivado = false;
+        }
+    }
+
+    private void Update()
+    {
+        if (estaActivado && Input.GetKeyDown(KeyCode.Space))
+        {
+            ActivarObjeto();
+        }
+    }
+
+    private void ActivarObjeto()
+    {
+        if (objetoAActivar != null)
+        {
+            objetoAActivar.SetActive(true);
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag != "Mano")
+        {
+            DestruirObjeto();
+        }
+    }
+
+    private void DestruirObjeto()
+    {
+        if (objetoAActivar != null)
+        {
+            Destroy(objetoAActivar);
+        }
+    }
+    }
+
+
+
 
 
 
