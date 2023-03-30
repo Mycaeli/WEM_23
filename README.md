@@ -229,6 +229,7 @@ This week the leap motion was not able to use, so the advances was kind of hard 
 using UnityEngine;
 
 public class Boton : MonoBehaviour
+
 {
     public GameObject objetoAActivar;
     
