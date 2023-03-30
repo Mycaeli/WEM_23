@@ -52,7 +52,7 @@ This is the reference for the piano system:
 ![image](https://user-images.githubusercontent.com/84156615/222506743-f4e86872-7ddd-40b1-96f2-1bb83fa07c9c.png)
 
 ### Avance 3.2:
-Description.
+The congas we´re modeled in Blender and transfered to Unity.
 
 Conga model Blender preview:
 
