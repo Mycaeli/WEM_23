@@ -291,9 +291,14 @@ This are the changes to the scenary, we choose to animate the lights in blender 
 
 ![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Scene_Light_Test.png)
 
+
+####Title:
+
 In the scenary modeling N-Gons were created, this problem was solved using the knife tool in Blender.
 
 ![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/n-gones.png)
+
+
 
 The scenary model is now in Unity, we had some problems with the materials emission that are being worked on and the particle system is being tested.
 
