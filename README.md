@@ -292,7 +292,7 @@ This are the changes to the scenary, we choose to animate the lights in blender 
 ![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Scene_Light_Test.png)
 
 
-####Title:
+#### Title:
 
 In the scenary modeling N-Gons were created, this problem was solved using the knife tool in Blender.
 
