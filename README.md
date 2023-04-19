@@ -30,7 +30,7 @@ We made an arduino system with a buzzer to use it like a piano, the mini piano w
 
 -https://www.youtube.com/watch?v=hgfqUaslW6o-
 
-### Avance 2.2:
+#### Avance 2.2:
 We implement de Leap motion as a sensor to use in the experience of the music creation, the Leap Motion have some problems maping the hands in some position that we need but in general, its the perfect tool for the job, the next step its to build the interface in Unity to make it workfit at all, in this case to make a functional digital piano midi and the compass.
 
 ![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Leap%20Motion_test.png)
@@ -42,7 +42,7 @@ The integration of the piano and the Leap motion was a hard step in the progress
 
 ![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Leap%20Motion_test%20on%20piano.png)
 
-### Avance 3.1:
+#### Avance 3.1:
 The drums are in process of modeling, the base model its working with the sound effects, the ESP its in the final stages to be funtional and the Leap motion has some troubles with the fingers control and how the keys are pressed, the only way that the user can make 2 sounds at the same time its playing the piano upside ways because the hitbox of the hands are confusing the piano keys. The songs we´ll use are: Harry Potter Theme, Can U feel my heart, Lacrimosa, Rush E and Tetris Theme.
 
 ![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Drums_test1.png)
@@ -51,8 +51,8 @@ This is the reference for the piano system:
 
 ![image](https://user-images.githubusercontent.com/84156615/222506743-f4e86872-7ddd-40b1-96f2-1bb83fa07c9c.png)
 
-### Avance 3.2:
-Description.
+#### Avance 3.2:
+The congas we´re modeled in Blender and transfered to Unity.
 
 Conga model Blender preview:
 
@@ -108,8 +108,8 @@ So we made a new code for apart of the Leap to detect when de button its press a
             isPressed = false;
         }
     }
-### Avance 3.3:
-Description.
+    
+#### Avance 3.3:
 
 Integration of the Uduino plugin and it's Wifi extension to manage the communicatios of the Esp32 that would be the interface to play the kongas.
 
@@ -208,6 +208,8 @@ public class BtnEvent : MonoBehaviour
 
 ### Proto 3.0
 
+#### Avance 4.1:
+
 The kongos and the piano had been implemented on the same unity project, both of them work and can sound at the same time, for the moment the kongos, had a visual feedback of color change, and the piano notes had a animation of moving when active.
 
 To solve the problem of the piano keys, the solution was to separate the piano black key from the white keys, sometimes the sensor had some troubles tranking so the hands shake a little in the corners of the leap
@@ -218,11 +220,11 @@ The scenary will be basic, a dark room where the object stand out. The complex p
 
 ![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Scenary_test.png)
 
-![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Scene_Blender_LightsOff.png)
-
 This is an example of a laser beam:
 
 ![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Laser_test.png)
+
+#### Avance 4.2:
 
 This week the leap motion was not able to use, so the advances was kind of hard but we make a new code for the interaction with the buttons, the propouse its to try it and look if it works or need a modofication:
 
@@ -283,6 +285,28 @@ using UnityEngine;
     }
 
 
+This are the changes to the scenary, we choose to animate the lights in blender and not to create lights beams in unity.
+
+![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Scene_Blender_LightsOff.png)
+
+![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Scene_Light_Test.png)
+
+
+#### Title:
+
+In the scenary modeling N-Gons were created, this problem was solved using the knife tool in Blender.
+
+![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/n-gones.png)
+
+
+
+The scenary model is now in Unity, we had some problems with the materials emission that are being worked on and the particle system is being tested.
+
+![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Particle_test.png)
+
+![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Particle_test_2.png)
+
+![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Particle_test_3.png)
 
 
 
