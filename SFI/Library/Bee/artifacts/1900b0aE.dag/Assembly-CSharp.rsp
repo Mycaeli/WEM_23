@@ -377,6 +377,7 @@
 "Assets/Assets/Instruments/Script/Script Music_Notes/script_GS_Note.cs"
 "Assets/Assets/Instruments/Script/Script Music_Notes/script_G_Note.cs"
 "Assets/Scripts/Audio_Konga_Manager.cs"
+"Assets/Scripts/Boton.cs"
 "Assets/Scripts/BtnEvent.cs"
 "Assets/ThirdParty/Ultraleap/Tracking/Examples/Core Examples/Example Assets/InertiaPostProcessProvider.cs"
 "Assets/ThirdParty/Ultraleap/Tracking/Examples/Core Examples/Example Assets/ProjectionPostProcessProvider.cs"
