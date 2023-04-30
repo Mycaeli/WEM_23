@@ -114,6 +114,7 @@
 -define:UDUINO_READY
 -define:UDUINO_WIFI
 -define:UDUINO_MEGA_MESSAGE
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
