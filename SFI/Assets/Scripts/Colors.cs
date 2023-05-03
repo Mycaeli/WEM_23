@@ -20,7 +20,8 @@ public class Colors : MonoBehaviour
         while (true)
         {
             meshRenderer.material.color = Color.black;
-           
+            yield return new WaitForSeconds(0.8f);
+
         }
     }
 }

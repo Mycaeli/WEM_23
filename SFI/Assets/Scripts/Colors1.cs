@@ -37,4 +37,3 @@ public class Colors1 : MonoBehaviour
         }
     }
 }
-
