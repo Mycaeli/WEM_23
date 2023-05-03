@@ -11,18 +11,17 @@ public class Colors : MonoBehaviour
     {
         meshRenderer = GetComponent<MeshRenderer>();
         originalColor = meshRenderer.material.color;
+
+        StartCoroutine(BlinkLoop());
     }
 
-    private void Update()
+    private IEnumerator BlinkLoop()
     {
-        float time = Time.time;
-        if (time % 10 < 5)
+        while (true)
         {
-            meshRenderer.material.color = Color.red;
-        }
-        else
-        {
-            meshRenderer.material.color = originalColor;
+            meshRenderer.material.color = Color.black;
+           
         }
     }
 }
+

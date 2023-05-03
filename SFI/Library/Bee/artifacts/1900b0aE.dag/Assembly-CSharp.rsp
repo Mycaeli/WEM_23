@@ -383,6 +383,7 @@
 "Assets/Scripts/Boton.cs"
 "Assets/Scripts/BtnEvent.cs"
 "Assets/Scripts/Colors.cs"
+"Assets/Scripts/Colors1.cs"
 "Assets/ThirdParty/Ultraleap/Tracking/Examples/Core Examples/Example Assets/InertiaPostProcessProvider.cs"
 "Assets/ThirdParty/Ultraleap/Tracking/Examples/Core Examples/Example Assets/ProjectionPostProcessProvider.cs"
 "Assets/ThirdParty/Ultraleap/Tracking/Examples/Example Assets/Scripts/EditorURL.cs"
