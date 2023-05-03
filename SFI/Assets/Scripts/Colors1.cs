@@ -22,7 +22,7 @@ public class Colors1 : MonoBehaviour
             for (int i = 0; i < 2; i++)
             {
                  meshRenderer.material.color = Color.black;
-                 yield return new WaitForSeconds(0.8f);
+                 yield return new WaitForSeconds(0.3f);
 
                  meshRenderer.material.color = originalColor;
                  yield return new WaitForSeconds(1.5f);
@@ -32,7 +32,7 @@ public class Colors1 : MonoBehaviour
             yield return new WaitForSeconds(7.8f);
 
             meshRenderer.material.color = originalColor;
-             yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(2.0f);
             
         }
     }
