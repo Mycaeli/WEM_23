@@ -308,6 +308,10 @@ The scenary model is now in Unity, we had some problems with the materials emiss
 
 ![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Particle_test_3.png)
 
+#### Avance 4.2:
+The new game mecanic its basicly ready, each button signal need to be programed by delays and calculate the delay of each code to make the right timming for the song be the most similar in the game, the problem becomes when some notes signals start after or befores it calls making a disorder in the game. 
 
+![image](https://user-images.githubusercontent.com/84156615/236036711-bce952b4-ce02-4cc6-adb7-51010bc74b99.png)
 
+![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Scene_Integrated.png)
 
