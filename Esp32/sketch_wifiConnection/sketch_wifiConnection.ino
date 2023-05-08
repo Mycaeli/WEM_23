@@ -21,12 +21,13 @@ void setup()
 #endif
 
   Serial.print("Init controller\n");
-
+  /*
+  pinMode(12, INPUT_PULLUP);
   pinMode(14, INPUT_PULLUP);
   pinMode(25, INPUT_PULLUP);
   pinMode(26, INPUT_PULLUP);
   pinMode(27, INPUT_PULLUP);
-
+  */
 
   // Optional functions,  to add BEFORE connectWifi(...)
   //uduino.setPort(4222);   // default 4222
