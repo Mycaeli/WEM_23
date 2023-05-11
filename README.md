@@ -315,3 +315,8 @@ The new game mecanic its basicly ready, each button signal need to be programed 
 
 ![image](https://github.com/Mycaeli/WEM_23/blob/main/Process/Scene_Integrated.png)
 
+
+#### Proto 4:
+
+The mechaniscs its fully ready, by using a rustic method making some calculations the momento of every signal cube in the scene will blink to show the user when tu push the button, sometimes some signasl get faster after few minutres working but the song its playeble, we had a basic level playing the Imperial March of Star Wars and a Hardcore playing Gerudo Valley of The leyend of Zelda.
+![image](https://github.com/Mycaeli/WEM_23/assets/84156615/302043ce-f0ec-46f9-8541-cc9aaa54bff4)
