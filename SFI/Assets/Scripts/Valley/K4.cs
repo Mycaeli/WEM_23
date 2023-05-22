@@ -6,6 +6,7 @@ public class K4 : MonoBehaviour
 {
     private MeshRenderer meshRenderer;
     private Color originalColor;
+    private static int reset;
 
     private void Start()
     {
@@ -13,6 +14,11 @@ public class K4 : MonoBehaviour
         originalColor = meshRenderer.material.color;
 
         StartCoroutine(BlinkLoop());
+    }
+
+    private void Reset()
+    {
+        
     }
 
     private IEnumerator BlinkLoop()
